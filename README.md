@@ -27,5 +27,11 @@ $ mvn install
 This will download all the dependencies.
 $ cd target
 ```
-* Here we will get the flatbuffers-java-1.3.0-SNAPSHOT.jar file that we have to put it in our libs folder of android project.
+* Here we will get the flatbuffers-java-1.3.0-SNAPSHOT.jar file that we have to put it in your libs folder of android project.
 * For rest you can see my sample project.
+
+## Major steps:
+* Prepare your schema.fbs.
+* Have a sample json.
+* Build flatBuffer google project to generate your java files to be used in main application.
+* Generate java files.
