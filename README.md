@@ -27,7 +27,7 @@ $ mvn install
 This will download all the dependencies.
 $ cd target
 ```
-* Here we will get the flatbuffers-java-1.3.0-SNAPSHOT.jar file that we have to put it in your libs folder of android project.
+* Here we will get the flatbuffers-java-1.3.0-SNAPSHOT.jar file that you have to put it in your libs folder of android project.
 * For rest you can see my sample project.
 
 ## Major steps:
