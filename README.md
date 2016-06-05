@@ -2,7 +2,7 @@
 This app shows how fast flat buffer works when we compare it with json.
 
 # Know more about FlatBuffer (Why use FlatBuffer?)
-[FlatBuffer](https://medium.com/@amitshekhar/why-consider-flatbuffer-over-json-2e4aa8d4ed07#.s67hhn8lt)
+[Why use FlatBuffer](https://medium.com/@amitshekhar/why-consider-flatbuffer-over-json-2e4aa8d4ed07#.s67hhn8lt)
 
 ### How to start with flatBuffer
 ```sh
