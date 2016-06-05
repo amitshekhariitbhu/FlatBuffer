@@ -2,7 +2,7 @@
 This app shows how fast flat buffer works when we compare it with json.
 
 # Know more about FlatBuffer
-[FlatBuffer]("https://medium.com/@amitshekhar/why-consider-flatbuffer-over-json-2e4aa8d4ed07#.s67hhn8lt")
+[FlatBuffer](https://medium.com/@amitshekhar/why-consider-flatbuffer-over-json-2e4aa8d4ed07#.s67hhn8lt)
 
 ### How to start with flatBuffer
 ```sh
@@ -18,7 +18,7 @@ $ cmake -G "Visual Studio 10"
 $ cmake -G "Xcode"
 ```
 * now build for your platform as usual. This should result in a flatc executable
-* Now create your schema file with extension .fbs. Guide to write a schema can be found [here]("https://google.github.io/flatbuffers/flatbuffers_guide_writing_schema.html").And also have your sample json file.
+* Now create your schema file with extension .fbs. Guide to write a schema can be found [here](https://google.github.io/flatbuffers/flatbuffers_guide_writing_schema.html).And also have your sample json file.
 ```sh
 $ ./flatc -j -b schema.fbs sample.json
 ```
