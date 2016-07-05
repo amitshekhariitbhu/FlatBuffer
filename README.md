@@ -2,6 +2,7 @@
 This app shows how fast flat buffer works when we compare it with json.
 
 # Try [Android Networking](https://github.com/amitshekhariitbhu/AndroidNetworking) for better networking
+[Android Networking](https://github.com/amitshekhariitbhu/AndroidNetworking)
 
 # Know more about FlatBuffer (Why use FlatBuffer?)
 [Why use FlatBuffer](https://medium.com/@amitshekhar/why-consider-flatbuffer-over-json-2e4aa8d4ed07#.s67hhn8lt)
