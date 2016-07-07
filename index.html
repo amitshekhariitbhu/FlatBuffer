@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Flatbuffer by amitshekhariitbhu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Flatbuffer</h1>
+      <h2 class="project-tagline">FlatBuffer : Android Sample Application</h2>
+      <a href="https://github.com/amitshekhariitbhu/FlatBuffer" class="btn">View on GitHub</a>
+      <a href="https://github.com/amitshekhariitbhu/FlatBuffer/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/amitshekhariitbhu/FlatBuffer/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="flatbuffer-android-sample-application" class="anchor" href="#flatbuffer-android-sample-application" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FlatBuffer Android Sample Application</h1>
+
+<p>This app shows how fast flat buffer works when we compare it with json.</p>
+
+<h1>
+<a id="try-android-networking-library-for-easy-and-fast-networking" class="anchor" href="#try-android-networking-library-for-easy-and-fast-networking" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Try <a href="https://github.com/amitshekhariitbhu/AndroidNetworking">Android Networking Library</a> for easy and fast networking</h1>
+
+<ul>
+<li><a href="https://github.com/amitshekhariitbhu/AndroidNetworking">Android Networking Library</a></li>
+<li><a href="https://medium.com/@amitshekhar/simple-and-fast-android-networking-19ed860d1455#.bqti0m1me">Why Android Networking Library?</a></li>
+</ul>
+
+<h1>
+<a id="know-more-about-flatbuffer-why-use-flatbuffer" class="anchor" href="#know-more-about-flatbuffer-why-use-flatbuffer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Know more about FlatBuffer (Why use FlatBuffer?)</h1>
+
+<p><a href="https://medium.com/@amitshekhar/why-consider-flatbuffer-over-json-2e4aa8d4ed07#.s67hhn8lt">Why use FlatBuffer</a></p>
+
+<h3>
+<a id="how-to-start-with-flatbuffer" class="anchor" href="#how-to-start-with-flatbuffer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to start with flatBuffer</h3>
+
+<div class="highlight highlight-source-shell"><pre>$ git clone https://github.com/google/flatbuffers.git</pre></div>
+
+<div class="highlight highlight-source-shell"><pre>$ <span class="pl-c1">cd</span> flatbuffers</pre></div>
+
+<ul>
+<li>Run the command on the basis of your platform</li>
+</ul>
+
+<div class="highlight highlight-source-shell"><pre>$ cmake -G <span class="pl-s"><span class="pl-pds">"</span>Unix Makefiles<span class="pl-pds">"</span></span>
+$ cmake -G <span class="pl-s"><span class="pl-pds">"</span>Visual Studio 10<span class="pl-pds">"</span></span>
+$ cmake -G <span class="pl-s"><span class="pl-pds">"</span>Xcode<span class="pl-pds">"</span></span></pre></div>
+
+<ul>
+<li>now build for your platform as usual. This should result in a flatc executable</li>
+<li>Now create your schema file with extension .fbs. Guide to write a schema can be found <a href="https://google.github.io/flatbuffers/flatbuffers_guide_writing_schema.html">here</a>.And also have your sample json file.</li>
+</ul>
+
+<div class="highlight highlight-source-shell"><pre>$ ./flatc -j -b schema.fbs sample.json</pre></div>
+
+<ul>
+<li>This will create few java file and one bin file. Java files are like model(POJO for flatBuffer) of your json.Place the java files in your application package and bin file in raw folder(bin file is only for testing as it is converted to byte that is to be passed to flatbuffer for testing).</li>
+<li>Now we have to get flatbuffer jar file.</li>
+</ul>
+
+<div class="highlight highlight-source-shell"><pre>$ <span class="pl-c1">cd</span> flatbuffers
+$ <span class="pl-c1">cd</span> java
+$ mvn install
+This will download all the dependencies.
+$ <span class="pl-c1">cd</span> target</pre></div>
+
+<ul>
+<li>Here we will get the flatbuffers-java-1.3.0-SNAPSHOT.jar file that you have to put it in your libs folder of android project.</li>
+<li>For rest you can see my sample project.</li>
+</ul>
+
+<h2>
+<a id="major-steps" class="anchor" href="#major-steps" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Major steps:</h2>
+
+<ul>
+<li>Prepare your schema.fbs.</li>
+<li>Have a sample json.</li>
+<li>Build flatBuffer google project to generate your java files to be used in main application.</li>
+<li>Generate java files.</li>
+</ul>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/amitshekhariitbhu/FlatBuffer">Flatbuffer</a> is maintained by <a href="https://github.com/amitshekhariitbhu">amitshekhariitbhu</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
