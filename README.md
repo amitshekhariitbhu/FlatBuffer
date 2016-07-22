@@ -53,8 +53,9 @@ $ cd target
 * Build flatBuffer google project to generate your java files to be used in main application.
 * Generate java files.
 
-### Contact
+### Contact - Let's become friend
 - [Twitter](https://twitter.com/amitiitbhu)
+- [Github](https://github.com/amitshekhariitbhu)
 - [Medium](https://medium.com/@amitshekhar)
 - [Facebook](https://www.facebook.com/amit.shekhar.iitbhu)
 
