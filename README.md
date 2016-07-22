@@ -4,7 +4,7 @@ This app shows how fast flat buffer works when we compare it with json.
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-FlatBuffer%20Android%20Sample%20Application-blue.svg?style=flat)](http://android-arsenal.com/details/3/3962)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/amitshekhariitbhu/FlatBuffer/blob/master/LICENSE)
 
-<img src=https://raw.githubusercontent.com/amitshekhariitbhu/Fast-Android-Networking/master/assets/flatbuffervsjson.png width=460 height=409 />
+<img src=https://raw.githubusercontent.com/amitshekhariitbhu/FlatBuffer/master/assets/flatbuffervsjson.png width=460 height=409 />
 
 ## Try [Fast Android Networking Library](https://github.com/amitshekhariitbhu/Fast-Android-Networking) for easy and fast networking
 * [Fast Android Networking Library](https://github.com/amitshekhariitbhu/Fast-Android-Networking)
