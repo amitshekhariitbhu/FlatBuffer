@@ -16,6 +16,9 @@ This app shows how fast flat buffer works when we compare it with json.
 * [Fast Android Networking Library](https://github.com/amitshekhariitbhu/Fast-Android-Networking)
 * [Why Fast Android Networking Library?](https://medium.freecodecamp.com/simple-and-fast-android-networking-19ed860d1455#.y590rbxrf)
 
+## Another awesome library for debugging databases and shared preferences.
+* [Android Debug Database](https://github.com/amitshekhariitbhu/Android-Debug-Database)
+
 ## Know more about FlatBuffers (Why use FlatBuffers?)
 [Why use FlatBuffers](https://medium.com/@amitshekhar/why-consider-flatbuffer-over-json-2e4aa8d4ed07#.s67hhn8lt)
 
