@@ -48,7 +48,7 @@ $ ./flatc -j -b schema.fbs sample.json
 $ cd flatbuffers
 $ cd java
 $ mvn install
-This will download all the dependencies.
+// This will download all the dependencies.
 $ cd target
 ```
 * Here you will get the flatbuffers-java-1.3.0-SNAPSHOT.jar file that you have to put it in your libs folder of android project.
