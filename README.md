@@ -12,7 +12,7 @@ This app shows how fast flat buffer works when we compare it with json.
 
 ### FlatBuffer is too much faster than JSON.
 
-###[Check out Mindorks awesome open source projects here](https://mindorks.com/open-source-projects)
+### [Check out Mindorks awesome open source projects here](https://mindorks.com/open-source-projects)
 
 ## Try [Fast Android Networking Library](https://github.com/amitshekhariitbhu/Fast-Android-Networking) for easy and fast networking
 * [Fast Android Networking Library](https://github.com/amitshekhariitbhu/Fast-Android-Networking)
